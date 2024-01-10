@@ -6,7 +6,7 @@ const nomes = ['Teste', 'Bagulhos', 'Windows', 'Freeway'];
 function nossoFilter(arr, funcao) {
     const novoArray = [];
     for (i = 0; i < arr.length; i++) {
-        if(funcao(arr[i]) == true){
+        if(funcao(arr[i])){
             novoArray.push(arr[i]);
         };
     }
