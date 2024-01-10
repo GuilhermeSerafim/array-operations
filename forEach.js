@@ -3,6 +3,7 @@ const nomes = ['Teste', 'Bagulhos', 'Windows', 'Freeway'];
 //     console.log(nome, i);
 // });
 
+// Itera sobre todos os elementos do array
 function nossoForEach(arr, funcao) {
     for (let i = 0; i < arr.length; i++) {
         funcao(arr[i], i);

@@ -3,6 +3,7 @@ const nomes = ['Teste', 'Bagulhos', 'Windows', 'Freeway'];
 //     console.log(nome.toUpperCase());
 // })
 
+// Cria um novo array com as modificações
 function nossoMap(arr, funcao) {
     const novoArray = [];
     for (let i = 0; i < arr.length; i++) {
